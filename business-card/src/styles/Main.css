@@ -1,0 +1,138 @@
+.Content {
+    background-color: #1A1B21;
+    position: relative;
+    margin: 0 auto;
+    width: 317px;
+    height: 750px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+  }
+  
+  .App-image {
+    position: relative;
+    margin: 0 auto;
+    width: 317px;
+    height: 317px;
+    pointer-events: none;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+  }
+  
+  .Name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .JobTitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 10px;
+    text-align: center;
+    color: #F3BF99;
+  }
+  
+  .Company {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+  }
+  
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    position: relative;
+    margin: 0 auto;
+    width: 115px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Inter;
+    font-style: normal;
+  } 
+  
+  .Email {
+    width: 115px;
+    height: 34px;
+    left: -20%;
+    top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .Btn-Email {
+    width: 13px;
+    padding-right: 5px;
+  }
+  
+  .LinkedIn {
+    width: 115px;
+    height: 34px;
+    left: 20%;
+    top: -14px;
+    border: 1px solid #5093E2;
+    background: #5093E2;
+    color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .Btn-Linkedin {
+    width: 13px;
+    padding-right: 5px;
+  }
+  
+  .Content > a {
+    text-decoration: none;
+  }
+  
+  h2 {
+    position: relative;
+    text-align: left;
+    height: 21px;
+    left: 12%;
+    top: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+  }
+  
+  .About, .Interests {
+    position: relative;
+    text-align: left;
+    left: 12%;
+    top: 15px;
+    width: 247px;
+    height: 61px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+  }
